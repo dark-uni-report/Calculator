@@ -396,6 +396,7 @@ class F(QWidget):
             s = s.f_sqrt()
             self.calc = str(s)
             self.tx.setText(self.calc)
+            self.calc = ''
 
     def fact(self):
         a = self.calc
